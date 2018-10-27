@@ -1,0 +1,4 @@
+{
+  "type": "flat",
+  "events": ["ScreenName", "PromoAction", "Product", "BonusUser", "BonusGuest", "Recipe", "Registration", "Feedback", "DeliveryMap", "Event X"]
+}

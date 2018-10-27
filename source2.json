@@ -1,0 +1,52 @@
+{
+  "type": "tree",
+  "events": [
+    {
+      "name": "ScreenName",
+      "list": [
+        {
+          "name": "ScreenName 1.1"
+        },
+        {
+          "name": "ScreenName 1.2"
+        }
+      ]
+    },
+    {
+      "name": "PromoAction",
+      "list": [
+        {
+          "name": "PromoAction 1.1",
+          "list": ["PromoAction 1.1.1", "PromoAction 1.1.2"]
+        },
+        {
+          "name": "PromoAction 1.2"
+        },
+        {
+          "name": "PromoAction 1.3"
+        }
+      ]
+    },
+    {
+      "name": "BonusGuest",
+      "list": [
+        {
+          "name": "BonusGuest 1.1",
+          "list": ["BonusGuest 1.1.1", "BonusGuest 1.1.2"]
+        }
+      ]
+    },
+    {
+      "name": "BonusUser"
+    },
+    {
+      "name": "Recipe"
+    },
+    {
+      "name": "Registration"
+    },
+    {
+      "name": "Feedback"
+    }
+  ]
+}

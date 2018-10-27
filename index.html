@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SmallData</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Small Data</h1>
+        <div class="row">
+            <div class="input-field col s6" style="padding: 0">
+                <select id="source-choice">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">Source1</option>
+                    <option value="2">Source2</option>
+                </select>
+                <label>Materialize Select</label>
+                <div class="row searching-block">
+                    <div class="input-field col s6">
+                        <input id="search-input" type="text">
+                        <label class="active" for="search-input">Search event</label>
+                    </div>
+                    <div class="result-block col s6">
+                        <span>Your choice: <span class="result-block-event"></span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="template" class="row">
+            <ul id="search-list" class="event-list col s6">
+                <li class="event-list-item"><a href="#">Nothing selected</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
